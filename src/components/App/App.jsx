@@ -29,7 +29,6 @@ export default function App() {
         }
         const updatedContacts = contacts.map(contact => contact)
         updatedContacts.push(contactToAdd)
-        console.log(updatedContacts)
         setContacts(updatedContacts)
         actions.resetForm()
     }
